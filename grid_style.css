@@ -37,7 +37,6 @@ body {
 }
 
 .header {
-	
 	font-family: 'Pacifico', cursive;
 	grid-column : 2/3;
 	grid-row : 1/2;
@@ -47,7 +46,6 @@ body {
 	padding-top : 5vh;
 
 }
-
 .nav {
 	grid-column : 1/2;
 	grid-row : 1/3;
@@ -56,16 +54,20 @@ body {
 	background-color: #00b0b9;
 }
 .nav_sub {
-	margin-left : 1vh;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-
+	height: 100%;
+}
+.menu {
+	font-size : 1rem;
+	flex-grow : 1;
+	text-align: center;
 }
 
 .button1 {
+	width: 100%;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	position: relative;
 	text-align: center;
 	line-height: 50px;
@@ -80,7 +82,7 @@ body {
 }
 
 .main {
-
+	display: flex;
 	text-align: center;
 	grid-column: 2/3;
 	grid-row : 2/3;
@@ -97,24 +99,22 @@ body {
 	justify-items: center;
 	align-items: center;
 	align-content: center;
-	gap: 1.5rem;
-
+	gap: 2rem;
 }
 
 .item {
 	position: absoulte;
-	background-color: lightgray;
+	background-color: rgb(203, 202, 202);
 	width : 30vh;
-	height: 33vh;
+	height: 32vh;
 	box-shadow: 0 0 1vh 1vh rgba(0, 0, 0, 0.2);
-
+	font-size : 1.5rem;
+	font-weight: 400;
 }
 
 .myphoto {
-	padding-top : 4vh;
 	width: 30vh;
-	height: 30vh;
-
+	height: 28vh;
 }
 
 .footer {
